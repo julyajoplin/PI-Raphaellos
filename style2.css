@@ -1,0 +1,166 @@
+.titulo{
+    margin-left: 25em;
+}
+
+/* main */
+.flex-container {
+    display: flex;
+    margin-top: 2%;
+    background-color: #dddcdc;
+}
+
+.flex-child {
+    flex: 1;
+    
+}  
+
+.flex-child:first-child {
+    margin-left: 20px;
+} 
+
+img.imagemSobre{
+    width: 50%;
+}
+
+p.texto{
+    font-size: larger;
+    font-weight: 500;
+}
+
+/* fim main */
+
+/* Menu */
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a :hover{
+    color: white;
+}
+
+Header{
+    background-color: #22898F;  
+    height: 3em;
+    width: 101.2%;
+    margin-top: 0em;
+    margin: -16px;
+}
+
+.menu_bar{
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+    margin-top: -1em;
+    color: black;
+    text-decoration: none;
+}
+/* Fim Menu */
+
+.Section2-1{
+    grid-area: s2;
+    background-color: blueviolet;
+}
+
+/* Missão e valores */
+
+.missao {
+    margin-top: 10em;
+    background-color: white;
+}
+
+.leftbox {
+    float:left; 
+    width:25%;
+    height:280px;
+}
+.middlebox{
+    margin-left: 0ch;
+    float:left; 
+    width:50%;
+    height:280px;
+}
+.rightbox{
+    float:right;
+    width:25%;
+    height:280px;
+}
+
+img.missionIcon{
+    width: 5%;
+    margin-left: 200px;
+}
+img.valueIcon{
+    width: 5%;
+    margin-left: 110px;
+}
+img.visionIcon{
+    width: 3%;
+    margin-left: 300px;
+}
+/* Missão e valores */
+
+.Footer{
+    
+    background-color: #dbdbdb;
+    margin-top: 30em;
+    
+}
+
+/* Flex para separar em duas colunas */
+.flex-container {
+    display: flex;
+    margin-top: 2%;
+}
+
+.flex-child {
+    flex: 1;
+    
+}  
+
+.flex-child:first-child {
+    margin-left: 20px;
+} 
+/* fim  Flex para separar em duas colunas */
+
+/* imagens footer */
+
+img.instagram {
+    width: 3%;
+    margin-top: 2em;
+    
+}
+
+img.instagram :hover{
+    cursor: pointer;
+}
+
+img.linkedin{
+    width: 3%;
+    margin-top: 2em;
+    
+}
+
+
+img.facebook{
+    width: 3%;
+    margin-top: 2em;
+    
+}
+
+.text {
+    font-size: large;
+}
+
+p.text-footer{
+    font-weight: 900;
+    margin-top: -1em;
+}
+
+/* fim Footer */
+
+
+

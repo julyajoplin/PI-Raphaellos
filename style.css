@@ -1,0 +1,223 @@
+body{
+    background-color: white;
+}
+
+
+/*.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    "header header header"
+    "section1 section1 section1"
+    "section2 section2 section2"
+    "footer footer footer"
+    ;
+}*/
+
+/* Menu */
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a :hover{
+    color: white;
+}
+
+Header{
+    background-color: #22898F;  
+    height: 4em;
+    width: 101.2%;
+    margin-top: 0em;
+    margin: -16px;
+}
+
+.menu_bar{
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+    margin-top: 0em;
+    color: black;
+    text-decoration: none;
+}
+/* Fim Menu */
+
+main {
+    margin-top: 2%;
+}
+
+.Section1-1 {
+    
+    background-color: white;
+}
+
+.Section1-2{
+    
+    background-color: aqua;
+}
+
+/* Footer */
+.Footer{
+    
+    background-color: #dbdbdb;
+    margin-top: 3em;
+    
+}
+
+/* Flex para separar em duas colunas */
+.flex-container {
+    display: flex;
+    margin-top: 2%;
+}
+
+.flex-child {
+    flex: 1;
+    
+}  
+
+.flex-child:first-child {
+    margin-left: 20px;
+} 
+/* fim  Flex para separar em duas colunas */
+
+/* fim Footer */
+
+.imgsection1-2{
+    width: 40%;
+    height: 30%;
+}
+nav.Menu{
+    align-content: space-between;  
+}
+
+#home_banner{
+    width: 80%;
+    align-items: center;
+    padding-left: 10%;
+}
+
+/* Botão e modal */
+
+.botaoControl{
+    margin-top: 4%;
+    margin-left: 53em;
+    justify-content: center;
+}
+
+.Btn {
+    border-color: #22898F;
+    border-radius: 5ch;
+    background-color: white;
+    width: 15%;
+}
+
+.Btn :hover{
+    background-color: #22898F;
+}
+.Btn:active {
+    background-color: #22898F;
+    transform: translateY(4px);
+  }
+
+  .formulario {
+    max-width: 650px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .formulario input, form textarea {
+    border: 0;
+    outline: 0;
+    padding: 0.8em;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+    font-family:'open_sansregular';
+    font-size:16px;
+    color:#424242;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    resize: none;
+  }
+  .formulario input:focus, .formulario textarea:focus {
+     
+    color:#22898F; 
+    -moz-box-shadow: 0 0px 2px #22898F !important;
+    -webkit-box-shadow: 0 0px 2px #22898F !important;
+    box-shadow: 0 0px 2px #22898F !important;
+  }
+  .formulario .btn-submit {
+    color: #fff;
+    background: #3cafe7 ;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .formulario .btn-submit:hover {
+   
+    background-color:#22898F;
+    -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  }
+  .formulario textarea {
+    height: 174px;
+  }
+  .metade {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+  }
+  .right { width:50%;}
+  .left  { margin-right:2%; }
+  @media (max-width: 768px) {
+    
+    .metade { width:100%; float:none; margin-bottom:0; }
+  }
+
+  /* fim Botão e modal */
+
+/* textos */
+
+.text {
+    font-size: large;
+}
+
+p.text-footer{
+    font-weight: 900;
+    margin-top: -1em;
+}
+
+/* imagens footer */
+
+img.instagram {
+    width: 3%;
+    margin-top: 2em;
+    
+}
+
+img.instagram :hover{
+    cursor: pointer;
+}
+
+img.linkedin{
+    width: 3%;
+    margin-top: 2em;
+    
+}
+
+
+img.facebook{
+    width: 3%;
+    margin-top: 2em;
+    
+}
